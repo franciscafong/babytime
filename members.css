@@ -1,0 +1,149 @@
+::-webkit-scrollbar {
+    width: 2px;
+    background: #fff; 
+}
+::-webkit-scrollbar-thumb {
+    background: #FF9E9D;
+}
+
+* { box-sizing: border-box; }
+body {background-color: #f7b9c4;
+}
+	main {  display: block; /* for Internet Explorer version 10 and below */
+        padding: 20px;
+        background-color: 
+        color: #000000;
+		font-family:Pacifico;
+		margin-left:400px;
+		}
+		
+	#topbutton {
+	border-radius:50%; 
+	color:#EE91A9;
+	background-color:#fff;
+	font-size:30px;
+	padding:5px 8px 8px 8px;
+	position:absolute;
+	text-decoration:none;
+	margin-top:-30px;
+	cursor: url(cursor.png), auto;
+	-webkit-transition:all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+#topbutton:hover {
+	background-color:#EE91A9;
+	color:#fff;
+}
+
+#tophover{
+	display:none;
+}
+
+#topbutton:hover  #tophover{
+	display:block;
+	font-size:18px;
+	padding:7px 0 7px 0;
+}
+
+#topbutton:hover  #topnohover{
+	display:none;
+}				
+				
+footer {
+	text-align:center;
+	background-color:#fff;
+	color:#E9ABC7;
+	width:100%;
+	float:left;
+	margin-top: 4%;
+	padding:1.2%;
+}
+
+#wrapper {
+	width:60%;
+	padding-left: 23%;
+	cursor: url(cursur.gif), auto;
+}
+
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	letter-spacing:1px;
+	font-family: Adamina, sans-serif;
+	font-size:75%;
+	background-color:#F7B9C4;;
+	cursor: url(cursur.gif), auto;
+}
+
+#entirewrap {
+	margin-top: 14px;
+	margin-left: 2.5%;
+	width: 90%;
+	border: 1px solid #FFFBFC;
+    border: 1px solid #FFFBFC;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+	cursor: url(cursur.gif), auto;
+}
+
+#relcontact {
+	letter-spacing: 2px;
+	margin: 0%;
+	background-color: #ffffff;
+	opacity: 0.92;
+	border: 1px solid rgb(183, 151, 156);
+    border: 1px solid rgba(183, 151, 156, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+}
+	
+.contactinfo {
+	letter-spacing:1px;
+	font-family:"Raleway", sans-serif;
+	font-size:110%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #B7979C;
+}
+
+.contactdetails {
+	letter-spacing:1px;
+	font-family:"Raleway", sans-serif;
+	font-size:105%;
+	text-align: center;
+	color: #CCA8AE;
+}
+
+.contactdetails a {
+	text-decoration: none;
+	color: #CCA8AE;
+	cursor: url(cursur.gif), auto;
+}
+
+.contactdetails a:hover {
+	text-decoration:underline;
+	color: #FF9E9D;
+	cursor: url(cursur.gif), auto;
+}
+
+#page-wrap {
+	width: auto;
+	background: white;
+	opacity: 0.93;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin: auto;
+	min-height: 360px;
+	height: 300px;
+	border: 1px solid rgb(183, 151, 156);
+    border: 1px solid rgba(183, 151, 156, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+background-clip: padding-box;
+
+}

@@ -1,0 +1,145 @@
+body{font-family: Arvo;
+		background-color: #F7B9C4;;
+		text-align: centre;}
+#babytime{background-color: none;
+			width:80%;
+			margin:auto;
+			min-width: :850px;}
+
+header {color: white;
+		font-size: 250%;
+		font-family: Pacifico;
+		text-align: left-side;
+		cursor: url(cursur.gif), auto;}
+		
+* { box-sizing: border-box; }
+body {background-color: #f7b9c4;
+}
+	main {  display: block; /* for Internet Explorer version 10 and below */
+        padding: 20px;
+        background-color: 
+        color: #000000;
+		font-family:Pacifico;
+		font-size: 20px;
+		margin-left:400px;
+		}
+		
+nav {
+  text-align: center; 
+  text-decoration: none;
+  font-size: 20px;
+  padding-top : 30px;
+	} 
+
+nav a {text-decoration: none;
+		padding:20px;
+		color:white;
+		border-bottom:1px solid #ffffff;
+		background-repeat:no-repeat;
+		background-position:right 0;
+		cursor: url(cursur.gif), auto;
+		}	
+nav a:hover {background-color:#b2d6e3;
+				color:#FF808C;
+				background-position:right -100px;}	
+				
+			
+#entirewrap {
+	margin-top: 14px;
+	margin-left: 2.5%;
+	width: 90%;
+	border: 1px solid #FFFBFC;
+    border: 1px solid #FFFBFC;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+	cursor: url(cursur.gif), auto;
+}
+
+#page-wrap {
+	width: auto;
+	background: white;
+	opacity: 0.93;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin: auto;
+	min-height: 360px;
+	height: 300px;
+	border: 1px solid rgb(183, 151, 156);
+    border: 1px solid rgba(183, 151, 156, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+	cursor: url(cursur.gif), auto;
+}
+#topbutton:hover {
+	background-color:#EE91A9;
+	color:#fff;
+}
+
+#tophover{
+	display:none;
+}
+
+#topbutton:hover  #tophover{
+	display:block;
+	font-size:18px;
+	padding:7px 0 7px 0;
+}
+
+#topbutton:hover  #topnohover{
+	display:none;
+}
+
+footer {
+	text-align:center;
+	background-color:#fff;
+	color:#E9ABC7;
+	width:97.5%;
+	float:left;
+	margin-top: 4%;
+	padding:1.2%;
+	cursor: url(cursur.gif), auto;
+}
+
+#wrapper {
+	width:60%;
+	padding-left: 23%;
+	cursor: url(cursur.gif), auto;
+}
+
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	letter-spacing:1px;
+	font-family: Adamina, sans-serif;
+	font-size:75%;
+	background-color:#F7B9C4;;
+	cursor: url(cursur.gif), auto;
+}
+
+#entirewrap {
+	margin-top: 14px;
+	margin-left: 2.5%;
+	width: 90%;
+	border: 1px solid #FFFBFC;
+    border: 1px solid #FFFBFC;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+	cursor: url(cursur.gif), auto;
+}
+#page-wrap {
+	width: auto;
+	background: white;
+	opacity: 0.93;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin: auto;
+	min-height: 360px;
+	height: 300px;
+	border: 1px solid rgb(183, 151, 156);
+    border: 1px solid rgba(183, 151, 156, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+background-clip: padding-box;
+
+}
